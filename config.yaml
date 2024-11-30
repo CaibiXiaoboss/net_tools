@@ -1,26 +1,26 @@
 app_token:
-  'AT_8kGnJDi5JslXYMF3hXNPbNiARNfErPo1'
+  ''
 uid:
-   - 'UID_wocAukyiBphOniZ49DOnGT13P8kw'
-   - 'UID_qLiImEumYKoLIbHYzU7jfeinP5sW'
-   - 'UID_ezACCjBKtZ4DnptZUBG055Jletdx'
-   - 'UID_mw3pL51Ap0uuB62GBhI6JxrZnKqS'
-   - 'UID_xCFniFnJKdOzx3ntQyJnxBZ1My9a'
+   - ''
+   - ''
+   - ''
+   - ''
+   - ''
 
 ov2500_requests:
-  server_ip: ['172.31.254.50', '172.31.254.45']
+  server_ip: ['', '']
 
   user:
-    'admin'
+    ''
   pwd:
-    'switch'
+    ''
 
   login_url:
-    'https://{server_ip}/api/login'
+    ''
   notifications_url:
-    'https://{server_ip}/api/notifications/alarms'
+    ''
   getAPList_url:
-    'https://{server_ip}/api/wma/accessPoint/getAPList/normal'
+    ''
 
   alarm_data:
     type: GetTrapDataRequestObject
@@ -45,7 +45,7 @@ ov2500_requests:
 
 zabbix_request:
   url:
-    'http://172.31.254.13/zabbix/api_jsonrpc.php'
+    ''
   header:
     {"Content-Type": "application/json-rpc"}
 
@@ -59,11 +59,11 @@ zabbix_request:
         - snmp_error
       filter:
         snmp_available: '2'
-    auth: f4db864af67c57ad22cb27b1327ca97a
+    auth: 
     id: 1
 
 
 olt_info:
-  old_ip: '172.31.255.240'
-  new_ip: '172.31.255.241'
-  snmp_oid: '1.3.6.1.4.1.637.61.1.35.11.22.1.3'
+  old_ip: ''
+  new_ip: ''
+  snmp_oid: ''
